@@ -50,7 +50,7 @@ def visualize_tcmr_3d(seq_verts, plotting_module = 'pyrender'):
 
     # 1. load mesh face (We can get from SMPLX) 
     import pickle
-    smpl_path = './basicModel_f_lbs_10_207_0_v1.0.0.pkl'
+    smpl_path = 'smpl/basicModel_f_lbs_10_207_0_v1.0.0.pkl'
     #smpl = joblib.load(smpl_path)
     dd = pickle.load(open(smpl_path, 'rb'),  encoding="latin1") # Python3 pickle issue
     print(f"keys: {dd.keys()}")
