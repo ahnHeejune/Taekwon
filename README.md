@@ -5,7 +5,9 @@
 ## related project and papers
 1. TCMR https://github.com/hongsukchoi/TCMR_RELEASE
 2. VIBE https://github.com/mkocabas/VIBE
-3. FAST DTW https://github.com/slaypni/fastdtw
+3. MOT  https://github.com/mkocabas/multi-person-tracker
+4. FAST DTW https://github.com/slaypni/fastdtw
+To run the TCMR, you need many other packages too.
 
 ## code and version 
 1. vis_mot_result.py
